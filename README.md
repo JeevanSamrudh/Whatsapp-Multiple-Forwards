@@ -6,5 +6,6 @@ this code can be helpful in solving your problem.
 Create file named "numbers.txt" which conatins all the contacts to forward an image. 
 To use an already opened browser by selenium:
 1) Set chrome as an evironment variable path.
-2) Run this command in the CLI:``chrome.exe --remote-debugging-port=9222 --user-data-dir="C:\selenum\ChromeProfile"``
-3) Open the page required for selenium to act upon.
+2) In the current-working-directory create a directory named ``ChromeProfile``
+3) Run this command in the CLI:``chrome.exe --remote-debugging-port=9222 --user-data-dir="C:(current-working-directory)/ChromeProfile"``
+4) Open the page required for selenium to act upon.
