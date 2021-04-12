@@ -70,4 +70,3 @@ def practice():
 first_photo_select()
 #practice()
 num_alloc()
-#send_to_all(['8073960625','9901506070'],1)
