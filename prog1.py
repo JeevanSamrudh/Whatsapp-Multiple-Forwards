@@ -22,7 +22,8 @@ mouse_positions=[(129,282),(849,486),(585,229),(498,360),(835,588),(919,485)]
 
 def first_photo_select():
     search_x_path='//*[@id="side"]/div[1]/div/label/div/div[2]'
-    driver.find_element_by_xpath(search_x_path).send_keys('9901506070')
+    number=input("Enter the contact no. to copy the image::)
+    driver.find_element_by_xpath(search_x_path).send_keys(number)
     auto.moveTo(mouse_positions[0],duration=0.6)
     auto.click()
     auto.moveTo(mouse_positions[1],duration=0.5)
